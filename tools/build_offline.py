@@ -3,6 +3,7 @@ import argparse
 import base64
 import mimetypes
 import re
+import zipfile
 from pathlib import Path
 
 
@@ -42,6 +43,9 @@ def build(source: Path, destination: Path):
     assert not re.search(r'<script\s+src="(?!data:)|<link\s+rel="stylesheet"', html)
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(html, encoding='utf-8')
+    # ZIP downloads reliably instead of displaying HTML as raw source.
+    with zipfile.ZipFile(destination.with_suffix('.zip'), 'w', zipfile.ZIP_DEFLATED) as bundle:
+        bundle.write(destination, destination.name)
     print(f'Bundled {len(assets)} images; {destination.stat().st_size:,} bytes; {destination.name}')
 
 

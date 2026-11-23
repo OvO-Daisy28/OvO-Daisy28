@@ -8,7 +8,7 @@
 
 | 项目 | 解决什么问题 | 体验方式 |
 |---|---|---|
-| **中科闻歌 · 采购文件活化 POC** | 将工程文档的解析、人工审核、知识检索和手册生成串成可操作流程 | **[下载离线交互演示](https://github.com/OvO-Daisy28/OvO-Daisy28/raw/refs/heads/main/demos/industrial-document-poc.html)** |
+| **中科闻歌 · 采购文件活化 POC** | 将工程文档的解析、人工审核、知识检索和手册生成串成可操作流程 | **[下载离线演示 ZIP](https://github.com/OvO-Daisy28/OvO-Daisy28/raw/refs/heads/main/demos/industrial-document-poc.zip)** · 解压后打开 HTML |
 | **Signal · 营销分析 Agent** | 用报表 Skill 与研究 Loop 完成营销数据分析、证据关联和报告交付 | **[查看项目源码与运行说明](https://github.com/OvO-Daisy28/marketing-analysis-agent)** · [打开在线案例](https://ovo-daisy28.github.io/marketing-analysis-agent/) |
 
 ## 中科闻歌｜POC 实现与部署验证
@@ -19,7 +19,7 @@
 - **部署与集成：**实际实习工作涉及 RAGFlow、FastAPI、MinerU、Elasticsearch、vLLM 和 BGE-M3 GPU 服务，完成导入开发、建图链路排障及问答测试。
 - **演示材料：**整理重点需求与功能截图的对应关系，以及完整业务流程的演示脚本。
 
-**离线体验：**下载上方 HTML 文件，用 Chrome 或 Edge 打开。JavaScript、CSS 和图片已经嵌入同一文件，无需安装依赖、启动服务或填写模型密钥。
+**离线体验：**点击上方链接下载 ZIP → 解压 → 用 Chrome 或 Edge 打开其中的 `industrial-document-poc.html`。JavaScript、CSS 和图片已经嵌入同一文件，无需安装依赖、启动服务或填写模型密钥。
 
 推荐路线：**工作台 → 内容解析 → 知识库与图谱 → 手册生成 → 导出 Word**。
 
@@ -39,4 +39,4 @@
 
 `Python` · `FastAPI` · `RAGFlow` · `Elasticsearch` · `Docker` · `vLLM` · `Embedding / LoRA` · `ReAct / Tool Calling` · `Skill` · `Context Management`
 
-下载说明：GitHub 仓库页面展示 HTML 源码而不会直接运行。请使用“下载离线交互演示”链接；若浏览器显示文本，可另存为 `.html` 后打开。离线文件不依赖 `chatgpt.site`，但下载过程仍需要能够访问 GitHub。
+下载说明：GitHub 的 HTML 原始文件链接可能展示源码，因此入口提供 ZIP 下载包。解压后的 HTML 可以直接在浏览器中运行，不依赖 `chatgpt.site`；下载过程仍需要能够访问 GitHub。
