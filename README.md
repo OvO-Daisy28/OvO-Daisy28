@@ -15,7 +15,11 @@
 - 用 MuJoCo 和 Simulink 对四旋翼双摆吊运系统进行建模与仿真。
 - 学习如何让 Agent 调用仿真工具、读取执行反馈，并根据仿真状态判断任务结果。
 
-## 开源项目
+## 项目
+
+### 中科闻歌 · 企业 RAG 实习
+
+把工程文档的解析、检索和手册生成做成可演示的 POC。后续负责 RAG 平台与模型部署、文档导入，以及问答接口和图谱功能验证。离线演示使用预置结果。 [GitHub 离线 POC 演示](https://github.com/OvO-Daisy28/OvO-Daisy28/blob/main/demos/industrial-document-poc.zip)
 
 ### Signal · 营销分析 Agent
 
