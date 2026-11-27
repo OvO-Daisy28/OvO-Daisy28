@@ -19,7 +19,9 @@
 
 ### 中科闻歌 · 企业 RAG 实习
 
-把工程文档的解析、检索和手册生成做成可演示的 POC。后续负责 RAG 平台与模型部署、文档导入，以及问答接口和图谱功能验证。离线演示使用预置结果。 [GitHub 离线 POC 演示](https://github.com/OvO-Daisy28/OvO-Daisy28/blob/main/demos/industrial-document-poc.zip)
+把工程文档的解析、检索和手册生成做成可演示的 POC。后续负责 RAG 平台与模型部署、文档导入，以及问答接口和图谱功能验证。
+
+[下载离线演示 ZIP](https://github.com/OvO-Daisy28/OvO-Daisy28/raw/refs/heads/main/demos/industrial-document-poc.zip) → 解压 → 用 Chrome 或 Edge 打开解压出来的 `industrial-document-poc.html`。演示使用预置结果，可离线体验。
 
 ### Signal · 营销分析 Agent
 
